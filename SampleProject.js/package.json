@@ -1,0 +1,9 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "description": "My App",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "circular-json": "^0.5.9"
+    }
+}

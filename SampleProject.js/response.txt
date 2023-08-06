@@ -1,0 +1,4 @@
+delete from rest_template WHERE NAME='Rakesh'
+INSERT INTO REST_TEMPLATE(NAME,OPERATION,TEMPLATE,URN) VALUES('Rakesh','Hello','Hello','Hello')
+delete from rest_template WHERE NAME='Rakesh'
+INSERT INTO REST_TEMPLATE(NAME,OPERATION,TEMPLATE,URN) VALUES('Rakesh','Hello','Hello','Hello')

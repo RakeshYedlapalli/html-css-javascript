@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.RandomPasswordGeneratorContainer{
+    background-color: pink;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
+    margin: 10px;
+}
+
+.inputContaner {
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#createPasswordField{
+     border: none;
+     background-color: transparent;
+     outline: none;
+     font-size: 24px;
+     letter-spacing: 4px;
+}
+
+#createPasswordField::placeholder{
+    letter-spacing: 0px;
+}
+
+.fa-solid{
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.fa-solid:hover{
+    opacity: 0.7;
+}
+
+#generateButton{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+#generateButton:hover{
+background-color: green;
+}
+
+#generateButton:active{
+    transform: scale(0.95);
+}
+
+.alert_container{
+    position: fixed;
+    width: 300px;
+    height: 50px;
+    background-color: lightgreen;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.active.alert_container{
+    right: -300px;
+}

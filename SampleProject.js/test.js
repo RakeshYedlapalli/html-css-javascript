@@ -1,0 +1,223 @@
+const hell = {
+  data: {
+    httpStatus: 200,
+    resource: {
+      productDomainCustomerChoice: {
+        id: "b589bc63-604e-4c3f-888b-43b40be178a9",
+        itemId: "3a2acfc0-3286-45d0-8d0d-bdf79f88eae4",
+        disabled: false,
+        _links: {
+          self: {
+            href: "https://test.api.azeus.gaptech.com:443/assortment/product-service/product/catalog/items/3a2acfc0-3286-45d0-8d0d-bdf79f88eae4/customer-choices/b589bc63-604e-4c3f-888b-43b40be178a9",
+          },
+          parent: {
+            href: "https://test.api.azeus.gaptech.com:443/assortment/product-service/product/catalog/items/3a2acfc0-3286-45d0-8d0d-bdf79f88eae4",
+          },
+        },
+      },
+      id: "39fbd068-23ad-4fc5-8b8c-5d6acba9f2f4",
+      isCustomerChoiceActive: true,
+      globalAssortedItemId: "8c8e145e-1844-4ef2-b007-cbc187066f80",
+      globalAssortedCCId: "0942e716-c269-4815-b1e3-459190802b78",
+      bomCustomerChoice: {},
+      style: { description: "030335479 PH STYLE-GAP" },
+      customerChoice: { description: "SAGE FLORAL" },
+      finishedGoodColor: {
+        code: "152",
+        abbreviatedDescription: "152SGFLR",
+        description: "SAGE FLORAL",
+        colorPalette: { season: { code: "SPR", year: "2022" } },
+        colorFamily: { number: "75", description: "MULTI" },
+        brandNumber: "1",
+      },
+      merchandiseHierarchy: {
+        subClassId: "eac83846-06a6-431c-a85b-84b22da35a8f",
+      },
+      brand: "1",
+      market: "US",
+      channel: "RTL",
+      assortmentStrategy: {
+        id: "c899fa1d-6665-41ff-ae02-4b30d921c7a2",
+        name: "TIER 0",
+        storeCount: 204,
+      },
+      rollingDistro: {
+        timeBasedAssortmentStrategies: [
+          {
+            startDate: "2022-03-21",
+            endDate: "2022-07-09",
+            value: {
+              id: "c899fa1d-6665-41ff-ae02-4b30d921c7a2",
+              name: "TIER 0",
+              storeCount: 0,
+            },
+          },
+        ],
+      },
+      flow: { id: "0e187d94-9cbb-4650-8d13-89da677b863b" },
+      planning: {
+        planningSeason: { description: "Spring", year: "2022" },
+        visualMinimum: {
+          multiplier: 1,
+          numberOfDays: 0,
+          isOneUnitPerSizeEnforced: true,
+        },
+        weeksAtRegularPrice: 16,
+        rank: "11",
+        seasonYear: "2022",
+        flowDate: "2022-03-21",
+        markdownStartDate: "2022-07-10",
+        comparableCustomerChoice: {},
+        seasonCode: {
+          id: "848e60ae-afbd-4dea-b4f9-e6610534691e",
+          brandId: 0,
+        },
+        minimumOrderQuantity: 300,
+        bookedQuantity: 0,
+        startShipToShipCancelWindow: 7,
+        shipCancelToInDistributionCenterWindow: 7,
+        inDistributionCenterToInStoreWindow: 14,
+        flowDateWeekAdjustment: 0,
+        weeksAtRegularPriceWeekAdjustment: 0,
+      },
+      tags: {},
+      managedAttributes: {},
+      sizing: {
+        hasOpenStock: false,
+        sizeModel: { id: "04f636d4-3a35-4132-9eed-66c7d8ab8396" },
+        sizeRange: {
+          id: "5c8271b3-9a65-4b69-bea9-98dce90e56e2",
+          description: "M90: 1: ONESIZE",
+          timePhasedVersion: false,
+          override: false,
+        },
+        sizeProfile: {
+          id: "e27580ff-f4dc-45e0-8b6f-8e229477846c",
+          percent: 0,
+          isCustom: false,
+          description: "System-AUTO LSP FAL22",
+          defaultDescription: "System-AUTO LSP FAL22",
+        },
+        timePhasedSizeRangeGroupsSizeProfiles: [],
+      },
+      deleted: false,
+      isComplete: "true",
+      merchandiseClassification: {
+        id: "e4300e8a-edb3-41c4-ab76-a5dcb420e839",
+      },
+      attributes: [],
+      siblingAccs: [
+        {
+          productDomainCustomerChoice: {
+            id: "b589bc63-604e-4c3f-888b-43b40be178a9",
+            itemId: "3a2acfc0-3286-45d0-8d0d-bdf79f88eae4",
+            disabled: false,
+            _links: {
+              self: {
+                href: "https://test.api.azeus.gaptech.com:443/assortment/product-service/product/catalog/items/3a2acfc0-3286-45d0-8d0d-bdf79f88eae4/customer-choices/b589bc63-604e-4c3f-888b-43b40be178a9",
+              },
+              parent: {
+                href: "https://test.api.azeus.gaptech.com:443/assortment/product-service/product/catalog/items/3a2acfc0-3286-45d0-8d0d-bdf79f88eae4",
+              },
+            },
+          },
+          id: "418d1e64-07a8-4612-8f39-7878e8ee64c2",
+          isCustomerChoiceActive: true,
+          globalAssortedItemId: "8c8e145e-1844-4ef2-b007-cbc187066f80",
+          globalAssortedCCId: "0942e716-c269-4815-b1e3-459190802b78",
+          bomCustomerChoice: {},
+          style: { description: "030335479 PH STYLE-GAP" },
+          customerChoice: { description: "SAGE FLORAL" },
+          finishedGoodColor: {
+            code: "152",
+            abbreviatedDescription: "152SGFLR",
+            description: "SAGE FLORAL",
+            colorPalette: { season: { code: "SPR", year: "2022" } },
+            colorFamily: { number: "75", description: "MULTI" },
+            brandNumber: "1",
+          },
+          merchandiseHierarchy: {
+            subClassId: "3fb131ff-41e0-4f98-96b4-92a0142243a4",
+          },
+          brand: "1",
+          market: "US",
+          channel: "ONL",
+          assortmentStrategy: {
+            id: "85396f39-51ae-4297-bf4e-c2df2d51509d",
+            name: "ONLINE",
+            storeCount: 1,
+          },
+          rollingDistro: {
+            timeBasedAssortmentStrategies: [
+              {
+                startDate: "2022-03-14",
+                endDate: "2022-07-09",
+                value: {
+                  id: "85396f39-51ae-4297-bf4e-c2df2d51509d",
+                  name: "ONLINE",
+                  storeCount: 0,
+                },
+              },
+            ],
+          },
+          flow: { id: "8207d31b-661b-4d7b-ad94-84251e556911" },
+          planning: {
+            planningSeason: { description: "Spring", year: "2022" },
+            visualMinimum: {
+              multiplier: 1,
+              numberOfDays: 0,
+              isOneUnitPerSizeEnforced: true,
+            },
+            weeksAtRegularPrice: 17,
+            rank: "11",
+            seasonYear: "2022",
+            flowDate: "2022-03-14",
+            markdownStartDate: "2022-07-10",
+            comparableCustomerChoice: {},
+            seasonCode: {
+              id: "848e60ae-afbd-4dea-b4f9-e6610534691e",
+              brandId: 0,
+            },
+            minimumOrderQuantity: 300,
+            bookedQuantity: 0,
+            startShipToShipCancelWindow: 7,
+            shipCancelToInDistributionCenterWindow: 7,
+            inDistributionCenterToInStoreWindow: 7,
+            flowDateWeekAdjustment: 0,
+            weeksAtRegularPriceWeekAdjustment: 0,
+          },
+          tags: {},
+          managedAttributes: {},
+          sizing: {
+            hasOpenStock: false,
+            sizeModel: { id: "04f636d4-3a35-4132-9eed-66c7d8ab8396" },
+            sizeRange: { timePhasedVersion: false, override: false },
+            sizeProfile: { percent: 0, isCustom: false },
+            timePhasedSizeRangeGroupsSizeProfiles: [],
+          },
+          deleted: false,
+          isComplete: "false",
+          merchandiseClassification: {
+            id: "e4300e8a-edb3-41c4-ab76-a5dcb420e839",
+          },
+          attributes: [],
+          flowId: "8207d31b-661b-4d7b-ad94-84251e556911",
+          assortmentStrategyId: "85396f39-51ae-4297-bf4e-c2df2d51509d",
+          seasonCodeId: "848e60ae-afbd-4dea-b4f9-e6610534691e",
+          sizeModelId: "04f636d4-3a35-4132-9eed-66c7d8ab8396",
+        },
+      ],
+      flowId: "0e187d94-9cbb-4650-8d13-89da677b863b",
+      assortmentStrategyId: "c899fa1d-6665-41ff-ae02-4b30d921c7a2",
+      seasonCodeId: "848e60ae-afbd-4dea-b4f9-e6610534691e",
+      sizeModelId: "04f636d4-3a35-4132-9eed-66c7d8ab8396",
+      sizeProfileId: "e27580ff-f4dc-45e0-8b6f-8e229477846c",
+      sizeRangeId: "5c8271b3-9a65-4b69-bea9-98dce90e56e2",
+      _links: {},
+    },
+    requestId: "qNb6YjGe57PWsNY5",
+  },
+};
+
+
+console.log("This is my response =>"+ hell.data.resource.sizing.sizeProfile.isCustom);
